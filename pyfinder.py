@@ -31,7 +31,7 @@ def find_python_files(directory):
             if file_name.endswith(".py"):
                 get_file_info(root, file_name)
 
-# Replace '/path/to/your/directory' with the directory you want to scan
+# Replace 'PATH-NAME-HERE' with the directory you want to scan
 directory_to_scan = 'PATH-NAME-HERE'
 
 find_python_files(directory_to_scan)
